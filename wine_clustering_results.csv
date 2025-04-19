@@ -1,0 +1,43 @@
+Preprocessing,Algorithm,Clusters,Silhouette,Calinski,Davies
+No Processing,kmeans,3,0.5596,497.0049,0.5496
+No Processing,kmeans,4,0.5669,696.839,0.5487
+No Processing,kmeans,5,0.5082,745.1974,0.5744
+No Processing,hierarchical,3,0.5645,552.8517,0.5357
+No Processing,hierarchical,4,0.5607,670.626,0.5536
+No Processing,hierarchical,5,0.5075,684.2226,0.5513
+No Processing,meanshift,3,0.5533,287.0089,0.4542
+Normalization,kmeans,3,0.2849,70.94,1.3892
+Normalization,kmeans,4,0.2542,52.7585,1.6954
+Normalization,kmeans,5,0.1836,45.8565,1.912
+Normalization,hierarchical,3,0.2774,67.6475,1.4186
+Normalization,hierarchical,4,0.2258,51.4641,1.7887
+Normalization,hierarchical,5,0.1867,43.6793,1.9229
+Normalization,meanshift,3,0.1981,19.4421,1.057
+Transform,kmeans,3,0.3918,120.0252,1.0189
+Transform,kmeans,4,0.3372,95.9459,1.3998
+Transform,kmeans,5,0.2546,81.782,1.4953
+Transform,hierarchical,3,0.3773,111.9856,1.0727
+Transform,hierarchical,4,0.3149,87.3709,1.4735
+Transform,hierarchical,5,0.2428,76.9552,1.5862
+Transform,meanshift,3,0.2113,31.372,0.9876
+PCA,kmeans,3,0.5603,497.5735,0.5487
+PCA,kmeans,4,0.5682,698.3397,0.5475
+PCA,kmeans,5,0.5655,705.305,0.482
+PCA,hierarchical,3,0.5656,553.5317,0.5343
+PCA,hierarchical,4,0.5619,672.0228,0.5523
+PCA,hierarchical,5,0.5009,685.2853,0.5563
+PCA,meanshift,3,0.5541,287.383,0.4536
+T+N,kmeans,3,0.3069,76.0194,1.3374
+T+N,kmeans,4,0.2731,59.6019,1.6764
+T+N,kmeans,5,0.2543,49.6153,1.7401
+T+N,hierarchical,3,0.2956,73.1534,1.3632
+T+N,hierarchical,4,0.2739,56.6987,1.7906
+T+N,hierarchical,5,0.2536,47.3296,1.8356
+T+N,meanshift,3,0.1704,22.3458,1.4875
+T+N+PCA,kmeans,3,0.5857,377.2877,0.5679
+T+N+PCA,kmeans,4,0.5125,350.2871,0.7472
+T+N+PCA,kmeans,5,0.4644,327.0208,0.8078
+T+N+PCA,hierarchical,3,0.5826,367.9235,0.5784
+T+N+PCA,hierarchical,4,0.5045,331.0932,0.7791
+T+N+PCA,hierarchical,5,0.4268,299.9067,0.8743
+T+N+PCA,meanshift,3,0.4915,337.7492,0.746
